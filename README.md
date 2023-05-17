@@ -40,4 +40,8 @@ WHERE first_name = 'Penelope' AND last_name = 'Monroe';
 ```
 SELECT * FROM film WHERE NOT (rental_rate >= 5.00 OR rental_rate = 2.99);
 ```
-- (1.kod)[png/1.png]
+- [film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.](png/1.png)
+- [film tablosunda bulunan tüm sütunlardaki verileri film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.](png/2.png)
+- [film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 VE replacement_cost 12.99 VEYA 28.99 olma koşullarıyla sıralayınız.](png/3.png)
+- [customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşterinin last_name sütunundaki değeri nedir?](png/4.png)
+- [film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.](png/5.png)
